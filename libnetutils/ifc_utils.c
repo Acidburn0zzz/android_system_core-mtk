@@ -36,6 +36,7 @@
 #include <linux/ipv6_route.h>
 #include <linux/rtnetlink.h>
 #include <linux/sockios.h>
+#include <linux/un.h>
 
 #include "netutils/ifc.h"
 

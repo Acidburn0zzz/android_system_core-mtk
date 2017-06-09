@@ -91,7 +91,7 @@ LOCAL_CFLAGS += -DALIGN_DOUBLE
 endif
 LOCAL_CFLAGS += -Werror
 
-ifeq ($(TARGET_BOARD_PLATFORM),mt6592)
+ifeq ($(BOARD_HAS_MTK_HARDWARE),true)  
 LOCAL_SRC_FILES += MediatekHacks.cpp
 endif
 
